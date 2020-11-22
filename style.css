@@ -27,8 +27,20 @@ li{
     
     list-style: none;
     font-size: 18px;
+    cursor: pointer;
+    
     
    
+}
+li:active{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:active{
+    color: #7c43dd
 }
 .nav-bar{
     
@@ -48,4 +60,98 @@ li{
 .heading span{
     font-weight: lighter;
     color: rgb(197, 197, 197);
+}
+
+/* {mid} */
+.mid{
+    width: 40vw;
+    margin: auto;
+    position: relative;
+    padding: 12px;
+}
+.mid h1{
+    color: var(--dark-gray);
+    text-align: center;
+    position: absolute;
+    top: 73%;
+    left: 38%;
+}
+.connect{
+    word-spacing: 2px;
+    margin-top: 12px;
+ text-align: center;
+}
+.self{
+    word-spacing: 2px;
+    margin-top: 12px;  
+    text-align: center;
+}
+/* {technology} */
+.body-tech
+{
+    background-color: var(--off-white);
+    margin-top: 22px;
+    
+}
+.main-tech{
+    width: 40vw;
+    margin: auto;
+    padding: 25px;
+    line-height: 32px;
+}
+.body-tech p{
+    word-spacing: 7px;
+    margin-top: 12px;
+}
+/* {progcts} */
+.whitebg{
+background-color: white;
+}
+.tech{
+    font-size: 18px;
+
+    color: var(--primary-color);
+    
+}
+
+/* {footer} */
+footer{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    margin-top: 12px;
+    
+}
+footer ul{
+    width: 60vw;
+    display: flex;
+
+    justify-content: space-around;
+    margin: auto;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+}
+.fab{
+    color: white;
+}
+footer h2{
+    text-align: center;
+   padding: 12px;
+}
+.tech{
+    border: 2px solid #966be0;
+    width: 15px;
+    height: 15px;
+    background-color: #966be0;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 8px;
+    
+}
+.tech:hover{
+    background-color: white;
+    color: var(--primary-color) ;
 }
