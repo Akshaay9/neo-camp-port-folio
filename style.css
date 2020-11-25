@@ -213,5 +213,12 @@ margin-left: 8px;
     text-align: center;
     padding: 12px;
 }
+.blogwriting{
+    word-spacing: 5px;
+}
+.bloglink{
+    color: black;
+    text-decoration: underline;
+}
 
 
