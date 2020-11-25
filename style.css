@@ -179,6 +179,7 @@ font-size: 18px;
 border-radius: 8px;
 display: block;
 cursor: pointer;
+margin-left: 8px;
 }
 .main-project{
     background-color: var(--off-white);
@@ -194,8 +195,8 @@ cursor: pointer;
     left: -15px;
     width: 40px;
     height: 40px;
-    background-color: whitesmoke;
-    color: #4992d3;
+    background-color: white;
+    color: var(--primary-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -203,14 +204,14 @@ cursor: pointer;
     font-size: 20px;
     border:2px solid var(--primary-color);
 }
-.project h3{
-    margin-left: 32px;
-    padding: 2px;
-    
-}
+
 .btn:hover{
     background-color: white;
     color: var(--primary-color) ;
+}
+.project h2{
+    text-align: center;
+    padding: 12px;
 }
 
 
