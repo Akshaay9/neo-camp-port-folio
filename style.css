@@ -220,6 +220,17 @@ margin-left: 8px;
 .bloglink{
     color: black;
     text-decoration: underline;
+    
+}
+.bloglink:hover{
+    color: black;
+    font-size: 17px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 3px;
+    
+
 }
 .project-desc{
     display: block;
