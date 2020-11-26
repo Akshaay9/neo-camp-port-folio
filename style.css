@@ -188,6 +188,7 @@ margin-left: 8px;
     /* text-align: center; */
     line-height: 26px;
     padding: 12px;
+    position: relative;
 }
 .project h4{
     position: absolute;
@@ -239,6 +240,13 @@ margin-left: 8px;
     font-size: 12px;
     font-weight: lighter;
     color: #9c9b9b;
+}
+.propic{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    left: 550px;
+    top: 0px
 }
 
 
