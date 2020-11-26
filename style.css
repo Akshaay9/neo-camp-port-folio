@@ -110,6 +110,8 @@ background-color: white;
 }
 .tech{
     font-size: 18px;
+    margin: 2px;
+    /* position: absolute;  */
     
 
     color: var(--primary-color);
@@ -151,6 +153,8 @@ footer h2{
     text-decoration: none;
     border-radius: 12px;
     padding: 8px;
+line-height: 12px;
+
     
 }
 .tech:hover{
