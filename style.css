@@ -208,6 +208,7 @@ margin-left: 8px;
 .btn:hover{
     background-color: white;
     color: var(--primary-color) ;
+    border: 1px solid black;
 }
 .project h2{
     text-align: center;
@@ -219,6 +220,14 @@ margin-left: 8px;
 .bloglink{
     color: black;
     text-decoration: underline;
+}
+.project-desc{
+    display: block;
+    padding: 2px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #9c9b9b;
 }
 
 
